@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         popupWindow.setWidth(ViewGroup.LayoutParams.WRAP_CONTENT);
         popupWindow.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
         popupWindow.setFocusable(false);
-        popupWindow.setBackgroundDrawable(new BitmapDrawable());
         btnConfirm = (Button) view.findViewById(R.id.btnConform);
         btnConfirm.setOnClickListener(listener);
 
